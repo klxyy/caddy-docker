@@ -2,11 +2,8 @@
 # 每行一个插件，支持以 # 开头的注释和空行
 # 修改后重新构建即可应用
 
-# Cloudflare DNS 验证
-github.com/caddy-dns/cloudflare
+# WebDAV
+github.com/mholt/caddy-webdav
 
-# Cloudflare IP
-github.com/WeidiDeng/caddy-cloudflare-ip
-
-# sni分流
+# Layer 4
 github.com/mholt/caddy-l4
