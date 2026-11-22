@@ -1,0 +1,4 @@
+caddy@v2.11.9
+github.com/mholt/caddy-webdav@fa2f366
+github.com/mholt/caddy-l4@1353123
+github.com/caddy-dns/tencentcloud@723aebc
