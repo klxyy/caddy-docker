@@ -17,6 +17,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
+  GHCR_OWNER: klxyy
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
@@ -105,7 +106,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v6
         with:
-          images: ${{ env.REGISTRY }}/caddy
+          images: ${{ env.REGISTRY }}/${{ env.GHCR_OWNER }}/caddy
           tags: |
             type=raw,value=latest
             type=raw,value=${{ steps.version.outputs.version }}
