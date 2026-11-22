@@ -8,4 +8,4 @@ github.com/mholt/caddy-webdav
 github.com/mholt/caddy-l4
 
 # DNSPod
-github.com/caddy-dns/dnspod
+github.com/caddy-dns/tencentcloud
